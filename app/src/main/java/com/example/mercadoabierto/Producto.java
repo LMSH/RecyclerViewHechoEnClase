@@ -5,11 +5,11 @@ import android.widget.ImageView;
 public class Producto {
     private String nombre;
     private String descripción;
-    private ImageView imagen;
+    private Integer imagen;
 
 public Producto (){}
 
-    public Producto(String nombre, String descripción, ImageView imagen) {
+    public Producto(String nombre, String descripción) {
         this.nombre = nombre;
         this.descripción = descripción;
         this.imagen = imagen;
@@ -31,11 +31,11 @@ public Producto (){}
         this.descripción = descripción;
     }
 
-    public ImageView getImagen() {
+    public Integer getImagen() {
         return imagen;
     }
 
-    public void setImagen(ImageView imagen) {
+    public void setImagen(Integer imagen) {
         this.imagen = imagen;
     }
 }
